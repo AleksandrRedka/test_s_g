@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Test Media Group</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <p id="people" class="nav__link">People</p>
+        <p id="films" class="nav__link">Films</p>
+        <p id="starships" class="nav__link">Starships</p>
+      </nav>
+    </header>
+    <main>
+      <form action="" class="form">
+        <label for="input-search-js">Enter value</label>
+        <input
+          id="input-search-js"
+          type="text"
+          class="form__input"
+          autocomplete="off"
+        />
+        <button id="button-search-js" class="form__button" type="button">
+          Search
+        </button>
+      </form>
+      <div id="root"></div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
